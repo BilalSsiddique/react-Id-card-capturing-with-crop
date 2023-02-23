@@ -3,10 +3,10 @@ import Webcam from "react-webcam";
 // import "./App.css";
 import ReactCrop from "react-image-crop";
 import "react-image-crop/dist/ReactCrop.css";
-import cameraIcon from "./camrea.svg";
-import flip from "./flip.svg";
-import upload from "./Object.svg";
-import faceki from "./faceki.svg";
+import cameraIcon from "./Icons/camrea.svg";
+import flip from "./Icons/flip.svg";
+import upload from "./Icons/Object.svg";
+import faceki from "./Icons/faceki.svg";
 
 const CaptureCard = () => {
   const [camera, setCamera] = useState("user");
